@@ -41,7 +41,6 @@ body { color: aliceblue; font-family: sans-serif }
 .message { background-color: #64798A; padding: 20px; border-radius: 10px; margin-top: 10px}
 
 
-/* Animation */
 body {
   background: #1488C6;
   overflow: hidden;
@@ -160,7 +159,7 @@ body {
 }
 
 @keyframes rock {
-  0%   { right: 20px;/*-200px;*/ }
+  0%   { right: 20px; }
   100% { right: 2000px; }
 }
 @keyframes truck {
